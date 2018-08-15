@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <h1 id="title">Restaurant Survey Form</h1>
+        <p id="description">Please provide your feedback for us to improve our service</p>
+    </header>
+    <main class="container">
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <div  class="form-label">
+                    <label id="name-label" for="name">Name</label>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">
+                    <label id="email-label" for="email">Email</label>
+                </div>
+                <div class="form-control">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">
+                    <label id="number-label" for="number">Age</label>
+                </div>
+                <div class="form-control">
+                    <input type="number" min="1" max="125" id="number" placeholder="Enter your Age">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">
+                    <label for="">Gender</label>
+                </div>
+                <div class="form-control">
+                    <input id="male" type="radio" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input id="female" type="radio" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">
+                    <label for="dropdown">How did you hear about us?</label>
+                </div>
+                <div class="form-control">
+                    <select id="dropdown">
+                        <option value="one">Newspaper</option>
+                        <option value="two">Social Media</option>
+                        <option value="two">Friends & Family</option>
+                        <option value="two">Outdoor Advertisments</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">
+                    <label for="">Things you like us to improve in?</label>
+                </div>
+                <div class="form-control">
+                    
+                    <div>
+                        <input type="checkbox" value="ambience" name="review" id="better">
+                        <label for="better">Ambience</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="service" name="review" id="best">
+                        <label for="best">Service</label>
+                    </div>
+                    <div>
+                            <input type="checkbox" value="taste" name="review" id="good">
+                            <label for="good">Taste</label>
+                        </div>
+                        <div>
+                                <input type="checkbox" value="hygine" name="review" id="hygine">
+                                <label for="hygine">Hygine</label>
+                            </div>
+                </div>
+            </div>
+            <div class="form-group" style="align-items: flex-start">
+                <div class="form-label">
+                    <label for="comments">Any Feedback or Suggestions?</label>
+                </div>
+                <div class="form-control">
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label"></div>
+                <div>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="container">
+        <p>Created for FreeCodeCamp</p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
