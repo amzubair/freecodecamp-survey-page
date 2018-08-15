@@ -1,4 +1,4 @@
 ## Restaurant Survey Page for FreeCodeCamp
 
-Created a restaurant survey form as part of freecodecamp.org responsive web design project.
+This is a restaurant survey form created as part of freecodecamp.org responsive web design project.
 
